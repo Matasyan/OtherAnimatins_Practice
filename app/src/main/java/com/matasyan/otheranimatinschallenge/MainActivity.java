@@ -14,11 +14,11 @@ public class MainActivity extends AppCompatActivity {
 
         if (bart.getAlpha() == 1){
 
-            bart.animate().alpha(0f).setDuration(2000);
-            homer.animate().alpha(1f).setDuration(2000);
+            bart.animate().alpha(0f).setDuration(1000);
+            homer.animate().alpha(1f).setDuration(1000);
         } else {
-            homer.animate().alpha(0f).setDuration(2000);
-            bart.animate().alpha(1f).setDuration(2000);
+            homer.animate().alpha(0f).setDuration(1000);
+            bart.animate().alpha(1f).setDuration(1000);
         }
 
 
